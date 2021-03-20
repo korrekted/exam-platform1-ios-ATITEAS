@@ -4,7 +4,7 @@ use_frameworks!
 
 source 'https://github.com/CocoaPods/Specs.git'
 
-target 'ATIITEAS' do
+target 'ATITEAS' do
   pod 'NotificationBannerSwift'
   pod 'lottie-ios'
   
