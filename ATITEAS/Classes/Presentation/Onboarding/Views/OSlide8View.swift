@@ -65,9 +65,9 @@ private extension OSlide8View {
         ])
         
         NSLayoutConstraint.activate([
-            imageView.leadingAnchor.constraint(equalTo: leadingAnchor, constant: ScreenSize.isIphoneXFamily ? 0 : 32.scale),
-            imageView.trailingAnchor.constraint(equalTo: trailingAnchor, constant: ScreenSize.isIphoneXFamily ? 0 : -32.scale),
-            imageView.heightAnchor.constraint(equalToConstant: ScreenSize.isIphoneXFamily ? 301.scale : 250.scale),
+            imageView.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 67.scale),
+            imageView.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -67.scale),
+            imageView.heightAnchor.constraint(equalToConstant: ScreenSize.isIphoneXFamily ? 270.scale : 220.scale),
             imageView.topAnchor.constraint(equalTo: topAnchor, constant: ScreenSize.isIphoneXFamily ? 245.scale : 180.scale)
         ])
         
@@ -106,6 +106,7 @@ private extension OSlide8View {
     func makeImageView() -> UIImageView {
         let view = UIImageView()
         view.clipsToBounds = true
+        view.contentMode = .scaleAspectFit
         view.translatesAutoresizingMaskIntoConstraints = false
         addSubview(view)
         return view
@@ -123,8 +124,8 @@ private extension OSlide8View {
         let view = UISlider()
         view.minimumValue = 1
         view.maximumValue = 7
-        view.minimumTrackTintColor = UIColor(integralRed: 95, green: 70, blue: 245)
-        view.maximumTrackTintColor = UIColor(integralRed: 95, green: 70, blue: 245, alpha: 0.3)
+        view.minimumTrackTintColor = UIColor(integralRed: 237, green: 86, blue: 114)
+        view.maximumTrackTintColor = UIColor(integralRed: 237, green: 86, blue: 114, alpha: 0.3)
         view.addTarget(self, action: #selector(update(sender:)), for: .valueChanged)
         view.translatesAutoresizingMaskIntoConstraints = false
         addSubview(view)
@@ -139,7 +140,7 @@ private extension OSlide8View {
             .textAlignment(.center)
         
         let view = UIButton()
-        view.backgroundColor = UIColor(integralRed: 95, green: 70, blue: 245)
+        view.backgroundColor = UIColor(integralRed: 237, green: 86, blue: 114)
         view.layer.cornerRadius = 30.scale
         view.setAttributedTitle("Onboarding.Proceed".localized.attributed(with: attrs), for: .normal)
         view.addTarget(self, action: #selector(onNext), for: .touchUpInside)

@@ -194,7 +194,6 @@
 		96DDDDB126063ED60045FDD3 /* OSlide8View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DDDCE426063ED50045FDD3 /* OSlide8View.swift */; };
 		96DDDDB226063ED60045FDD3 /* OProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DDDCE626063ED50045FDD3 /* OProgressView.swift */; };
 		96DDDDB326063ED60045FDD3 /* OSlide15Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DDDCE726063ED50045FDD3 /* OSlide15Cell.swift */; };
-		96DDDDB426063ED60045FDD3 /* Onboarding.Chart.json in Resources */ = {isa = PBXBuildFile; fileRef = 96DDDCE926063ED50045FDD3 /* Onboarding.Chart.json */; };
 		96DDDDB526063ED60045FDD3 /* ODatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DDDCEA26063ED50045FDD3 /* ODatePicker.swift */; };
 		96DDDDB626063ED60045FDD3 /* OSlide4Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DDDCEB26063ED50045FDD3 /* OSlide4Cell.swift */; };
 		96DDDDB726063ED60045FDD3 /* OSlide9TagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DDDCEC26063ED50045FDD3 /* OSlide9TagView.swift */; };
@@ -215,6 +214,8 @@
 		96DDDDC626063ED60045FDD3 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DDDCFB26063ED50045FDD3 /* OnboardingView.swift */; };
 		96DDDDC726063ED60045FDD3 /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DDDCFC26063ED50045FDD3 /* OnboardingViewModel.swift */; };
 		96DDDDC826063ED60045FDD3 /* OnboardingAnalytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DDDCFE26063ED50045FDD3 /* OnboardingAnalytics.swift */; };
+		96DDDDCF2606A58A0045FDD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96DDDDCE2606A58A0045FDD3 /* LaunchScreen.storyboard */; };
+		96DDDDD32606ADE10045FDD3 /* Onboarding.Chart.json in Resources */ = {isa = PBXBuildFile; fileRef = 96DDDDD22606ADE10045FDD3 /* Onboarding.Chart.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -410,7 +411,6 @@
 		96DDDCE426063ED50045FDD3 /* OSlide8View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OSlide8View.swift; sourceTree = "<group>"; };
 		96DDDCE626063ED50045FDD3 /* OProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OProgressView.swift; sourceTree = "<group>"; };
 		96DDDCE726063ED50045FDD3 /* OSlide15Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OSlide15Cell.swift; sourceTree = "<group>"; };
-		96DDDCE926063ED50045FDD3 /* Onboarding.Chart.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Onboarding.Chart.json; sourceTree = "<group>"; };
 		96DDDCEA26063ED50045FDD3 /* ODatePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ODatePicker.swift; sourceTree = "<group>"; };
 		96DDDCEB26063ED50045FDD3 /* OSlide4Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OSlide4Cell.swift; sourceTree = "<group>"; };
 		96DDDCEC26063ED50045FDD3 /* OSlide9TagView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OSlide9TagView.swift; sourceTree = "<group>"; };
@@ -431,6 +431,8 @@
 		96DDDCFB26063ED50045FDD3 /* OnboardingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		96DDDCFC26063ED50045FDD3 /* OnboardingViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
 		96DDDCFE26063ED50045FDD3 /* OnboardingAnalytics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingAnalytics.swift; sourceTree = "<group>"; };
+		96DDDDCE2606A58A0045FDD3 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		96DDDDD22606ADE10045FDD3 /* Onboarding.Chart.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Onboarding.Chart.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -495,6 +497,7 @@
 				96DDDBD626063DC70045FDD3 /* Fonts */,
 				96DDDBD526063DC10045FDD3 /* Strings */,
 				96DDDBA9260638980045FDD3 /* Info.plist */,
+				96DDDDCE2606A58A0045FDD3 /* LaunchScreen.storyboard */,
 				96DDDBA4260638980045FDD3 /* Assets.xcassets */,
 				96DDDBD426063DAE0045FDD3 /* ATITEAS-Bridging-Header.h */,
 			);
@@ -1307,7 +1310,7 @@
 		96DDDCE826063ED50045FDD3 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				96DDDCE926063ED50045FDD3 /* Onboarding.Chart.json */,
+				96DDDDD22606ADE10045FDD3 /* Onboarding.Chart.json */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -1379,10 +1382,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96DDDDB426063ED60045FDD3 /* Onboarding.Chart.json in Resources */,
+				96DDDDD32606ADE10045FDD3 /* Onboarding.Chart.json in Resources */,
 				96DDDBA5260638980045FDD3 /* Assets.xcassets in Resources */,
 				96DDDBE426063E960045FDD3 /* SF-Pro-Rounded-Regular.otf in Resources */,
 				96DDDBE326063E960045FDD3 /* SF-Pro-Rounded-Semibold.otf in Resources */,
+				96DDDDCF2606A58A0045FDD3 /* LaunchScreen.storyboard in Resources */,
 				96DDDBE726063E9C0045FDD3 /* Localizable.strings in Resources */,
 				96DDDBE526063E960045FDD3 /* SF-Pro-Rounded-Bold.otf in Resources */,
 			);

@@ -95,7 +95,7 @@ private extension PassRateCell {
         let view = UIView()
         view.translatesAutoresizingMaskIntoConstraints = false
         view.layer.cornerRadius = 20.scale
-        view.backgroundColor = UIColor(integralRed: 95, green: 70, blue: 245)
+        view.backgroundColor = UIColor(integralRed: 237, green: 86, blue: 114)
         contentView.addSubview(view)
         return view
     }
