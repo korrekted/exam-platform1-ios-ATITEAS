@@ -7,6 +7,7 @@
 
 import UIKit
 import RxCocoa
+import Firebase
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -21,6 +22,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let vc = SplashViewController.make(generateStep: generateStepInSplash.asSignal())
         window?.rootViewController = vc
         window?.makeKeyAndVisible()
+        
+        FirebaseApp.configure()
         
         addDelegates()
         
@@ -90,7 +93,7 @@ private extension AppDelegate {
                                    appsFlyerApiKey: GlobalDefinitions.appsFlyerApiKey,
                                    facebookActive: true,
                                    branchActive: true,
-                                   firebaseActive: false,
+                                   firebaseActive: true,
                                    applicationTag: GlobalDefinitions.applicationTag,
                                    userToken: SessionManagerCore().getSession()?.userToken,
                                    userId: SessionManagerCore().getSession()?.userId,
@@ -98,7 +101,7 @@ private extension AppDelegate {
                                    shouldAddStorePayment: true,
                                    featureAppBackendUrl: GlobalDefinitions.domainUrl,
                                    featureAppBackendApiKey: GlobalDefinitions.apiKey,
-                                   appleAppID: GlobalDefinitions.appStoreId)
+                                   appleAppID: GlobalDefinitions.appleAppID)
         
         sdkProvider.initialize(settings: settings) { [weak self] in
             self?.generateStepInSplash.accept(Void())
