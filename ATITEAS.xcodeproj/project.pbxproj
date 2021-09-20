@@ -2076,7 +2076,7 @@
 				PROVISIONING_PROFILE_SPECIFIER = "ATI TEAS Stats Widgets Development";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -2103,7 +2103,7 @@
 				PROVISIONING_PROFILE_SPECIFIER = "ATI TEAS Stats Widgets AppStore";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -2248,7 +2248,7 @@
 				PROVISIONING_PROFILE_SPECIFIER = "ATI TEAS Development";
 				SWIFT_OBJC_BRIDGING_HEADER = "ATITEAS/Resource/ATITEAS-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -2276,7 +2276,7 @@
 				PROVISIONING_PROFILE_SPECIFIER = "ATI TEAS AppStore";
 				SWIFT_OBJC_BRIDGING_HEADER = "ATITEAS/Resource/ATITEAS-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
