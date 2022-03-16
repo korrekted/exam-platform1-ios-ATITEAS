@@ -11,7 +11,7 @@ final class OModeCell: UIView {
     var isSelected = false {
         didSet {
             layer.borderWidth = isSelected ? 4.scale : 0
-            layer.borderColor = isSelected ? Appearance.progress3Color.cgColor : UIColor.clear.cgColor
+            layer.borderColor = isSelected ? Appearance.mainColor.cgColor : UIColor.clear.cgColor
         }
     }
     

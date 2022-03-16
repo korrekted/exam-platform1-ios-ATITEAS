@@ -82,7 +82,7 @@ private extension ReferencesTableCell {
 private extension ReferencesTableCell {
     func makeCircleView() -> CircleView {
         let view = CircleView()
-        view.backgroundColor = UIColor(integralRed: 224, green: 117, blue: 140)
+        view.backgroundColor = Appearance.mainColor
         view.translatesAutoresizingMaskIntoConstraints = false
         contentView.addSubview(view)
         return view

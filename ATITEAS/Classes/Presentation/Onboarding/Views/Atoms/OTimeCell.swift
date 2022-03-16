@@ -11,7 +11,7 @@ final class OTimeCell: UIView {
     var isSelected = false {
         didSet {
             layer.borderWidth = isSelected ? 4.scale : 0
-            layer.borderColor = isSelected ? Appearance.progress3Color.cgColor : UIColor.clear.cgColor
+            layer.borderColor = isSelected ? Appearance.mainColor.cgColor : UIColor.clear.cgColor
         }
     }
     
@@ -32,7 +32,7 @@ final class OTimeCell: UIView {
     var subtitle: String = "" {
         didSet {
             let attrs = TextAttributes()
-                .textColor(UIColor(integralRed: 66, green: 68, blue: 229))
+                .textColor(UIColor.black)
                 .font(Fonts.SFProRounded.regular(size: 15.scale))
                 .lineHeight(21.scale)
             subtitleLabel.attributedText = subtitle.attributed(with: attrs)

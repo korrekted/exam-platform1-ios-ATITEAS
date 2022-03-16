@@ -45,6 +45,6 @@ private extension OSlideGoalCell {
     
     func update() {
         layer.borderWidth = isSelected ? 2.scale : 0
-        layer.borderColor = isSelected ? Appearance.progress3Color.cgColor : UIColor.white.cgColor
+        layer.borderColor = isSelected ? Appearance.mainColor.cgColor : UIColor.white.cgColor
     }
 }
